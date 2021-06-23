@@ -1,5 +1,5 @@
 import React from 'react';
-// import Header from '';
+import Header from './components/Header/index';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import Home from './pages/Home';
 // import About from './pages/About';
@@ -12,7 +12,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className='App'>
-        {/* <Header /> */}
+        <Header />
         <Switch>
           <Route exact path='/Professional-Portfolio' component={Home} />
           {/* <Route exact path='/about' component={About} />
