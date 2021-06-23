@@ -4,7 +4,7 @@ import { Router, Route, Switch } from 'react-router';
 import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
-import Contact from './pages/Contacts';
+import Contact from './pages/Contact';
 // import Footer from '';
 import './App.css';
 
