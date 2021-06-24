@@ -1,10 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import home from '../../assets/images/home.png';
-// import about from '../../assets/images/about-me.png';
-// import project from '../../assets/images/my-work.png';
-// import resume from '../../assets/images/resume.png';
-// import contact from '../../assets/images/contact.png';
+import about from '../../assets/images/about-me.png';
+import project from '../../assets/images/my-work.png';
+import resume from '../../assets/images/resume.png';
+import contact from '../../assets/images/contact.png';
 import './style.css';
 
 const Nav = () => {
