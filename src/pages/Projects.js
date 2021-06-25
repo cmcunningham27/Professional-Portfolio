@@ -1,7 +1,9 @@
 import React from 'react';
 import { Container, Row, Col } from '../components/Grid';
+import MainProject from '../components/MainProject';
 
 const Projects = () => {
+    
     return (
         <Container fluid>
             <Row>
@@ -13,7 +15,7 @@ const Projects = () => {
             </Row>
             <Row>
                 <Col size='sm-12'>
-                    
+                    <MainProject />
                 </Col>
             </Row>
             <Row>
