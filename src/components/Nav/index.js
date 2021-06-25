@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import home from '../../assets/images/home.png';
 import about from '../../assets/images/about-me.png';
 import project from '../../assets/images/my-work.png';
@@ -10,26 +10,26 @@ import './style.css';
 const Nav = () => {
     return (
         <div>
-            <Link className='icons {location.pathname === "/" ? "nav.link active" : "nav-link"}' to='/Professional-Portfolio'>
+            <NavLink className='icons navbar-item' activeClassName='is-active' to='/Professional-Portfolio' exact>
                 <img className="home" src={home} alt="House black icon" />
                 {/* <p className="hidden">Home</p> */}
-            </Link>
-            <Link className="icons" href="/about">
+            </NavLink>
+            <NavLink className='icons navbar-item' activeClassName='is-active' to='/Professional-Portfolio/about' exact>
                 <img className="aboutme" src={about} alt="Faceless and armless upper torso with question mark on stomach black icon" />
                 {/* <p className="hidden">About Me</p> */}
-            </Link>
-            <Link className="icons" href="/projects">
+            </NavLink>
+            <NavLink className='icons navbar-item' activeClassName='is-active' to='/Professional-Portfolio/projects' exact>
                 <img className="mywork" src={project} alt="Lightbulb black icon" />
                 {/* <p className="hidden">Projects</p>*/}
-            </Link> 
+            </NavLink> 
             <Link className="icons" href="./assets/resume/CMC_Resume.pdf" target="_blank">
                 <img className="resume" src={resume} alt="Sheet of paper with women torso and lines below, and a magnifiying glass containing a check mark black icon" />
                 {/* <p className="hidden">Resume</p> */}
             </Link>
-            <Link className="icons"href="/Professional-Portfolio/contact">
+            <NavLink className='icons navbar-item' activeClassName='is-active' to='/Professional-Portfolio/contact' exact>
                 <img className="contact" src={contact} alt="Contact book with faceless and armless upper torso black icon" />
                 {/* <p className="hidden">Contact</p> */}
-            </Link>
+            </NavLink>
         </div>
     )
 };

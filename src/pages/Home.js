@@ -8,6 +8,9 @@ const Home = () => {
             <Row>
                 <Col size='sm-12'>
                     <img className='profileImage rounded-circle' src={image} alt='Cassandra Cunningham'/>
+                    <h1>
+                        Full-Stack Web Developer
+                    </h1>
                 </Col>
             </Row>
         </Container>

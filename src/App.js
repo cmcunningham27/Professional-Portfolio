@@ -14,10 +14,18 @@ function App() {
       <div className='App'>
         <Header />
         <Switch>
-          <Route exact path='/Professional-Portfolio' component={Home} />
-          <Route exact path='/about' component={About} />
-          <Route exact path='/projects' component={Projects} />
-          <Route exact path='/Professional-Portfolio/contact' component={Contact} />
+          <Route exact path='/Professional-Portfolio'>
+            {Home}
+          </Route>
+          <Route exact path='/Professional-Portfolio/about'>
+            {About}
+          </Route>
+          <Route exact path='/Professional-Portfolio/projects'>
+            {Projects}
+          </Route>
+          <Route exact path='/Professional-Portfolio/contact'>
+            {Contact}
+          </Route>
         </Switch>
         {/* <Footer /> */}
       </div>
