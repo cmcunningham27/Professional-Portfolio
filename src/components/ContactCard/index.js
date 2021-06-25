@@ -15,7 +15,9 @@ const ContactCard = () => {
                     </h5>
                 </li>
                 <li className='list-group-item'>
-
+                    <h5>
+                        <a href='https://github.com/cmcunningham27' target='_blank' rel='noreferrer'>GitHub</a>
+                    </h5>
                 </li>
                 <li className='list-group-item'>
 
