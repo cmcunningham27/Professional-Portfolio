@@ -20,7 +20,9 @@ const ContactCard = () => {
                     </h5>
                 </li>
                 <li className='list-group-item'>
-
+                    <h5>
+                        <a href='https://www.linkedin.com/in/cassandra-cunningham-a29347141' target='_blank' rel='noreferrer'>LinkedIn</a>
+                    </h5>
                 </li>
             </ul>
         </div>
