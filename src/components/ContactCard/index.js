@@ -10,7 +10,9 @@ const ContactCard = () => {
                     </h5>
                 </li>
                 <li className='list-group-item'>
-
+                    <h5>
+                        By Phone: (253) 820-1032
+                    </h5>
                 </li>
                 <li className='list-group-item'>
 
