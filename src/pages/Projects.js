@@ -6,7 +6,9 @@ const Projects = () => {
         <Container fluid>
             <Row>
                 <Col size='sm-12'>
-                    
+                    <h1>
+                        My Projects
+                    </h1>
                 </Col>
             </Row>
             <Row>
