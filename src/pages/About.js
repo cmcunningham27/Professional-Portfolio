@@ -1,8 +1,15 @@
 import React from 'react';
+import { Container, Row, Col } from '../components/Grid';
 
 const About = () => {
     return (
-        <h1>About Page</h1>
+        <Container fluid>
+            <Row>
+                <Col size='sm-12'>
+                    
+                </Col>
+            </Row>
+        </Container>
     )
 };
 
