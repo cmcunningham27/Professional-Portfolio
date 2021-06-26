@@ -4,7 +4,7 @@ const SmallProject = () => {
     return (
         <div className='smallProject'>
             <h5 class="title">
-
+                
             </h5>
             <a href='' target='_blank' rel='noreferrer'>
                 <img class="project-img"/>
@@ -13,7 +13,7 @@ const SmallProject = () => {
                 <a href='' target='_blank' rel='noreferrer'>
                     GitHub repository
                 </a>
-            </button>
+            </button> 
         </div>
     )
 };

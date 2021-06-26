@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink, Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 import home from '../../assets/images/home.png';
 import about from '../../assets/images/about-me.png';
 import project from '../../assets/images/my-work.png';
@@ -23,10 +23,10 @@ const Nav = () => {
                 <img className='mywork' src={project} alt='Lightbulb black icon' />
                 {/* <p className="hidden">Projects</p>*/}
             </NavLink> 
-            <Link className='icons' href={Resume} target='_blank' rel='noreferrer'>
+            <NavLink className='icons' to={Resume} target='_blank' rel='noreferrer'>
                 <img className='resume' src={resume} alt='Sheet of paper with women torso and lines below, and a magnifiying glass containing a check mark black icon' />
                 {/* <p className="hidden">Resume</p> */}
-            </Link>
+            </NavLink>
             <NavLink className='icons navbar-item' activeClassName='is-active' to='/Professional-Portfolio/contact' exact>
                 <img className='contact' src={contact} alt='Contact book with faceless and armless upper torso black icon' />
                 {/* <p className="hidden">Contact</p> */}

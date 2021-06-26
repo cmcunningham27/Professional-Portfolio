@@ -5,10 +5,12 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
-// import Footer from '';
+// import Footer from './components/Footer';
+
 import './App.css';
 
 function App() {
+
   return (
     <BrowserRouter>
       <div className='App'>
@@ -20,9 +22,9 @@ function App() {
           <Route exact path='/Professional-Portfolio/about'>
             {About}
           </Route>
-          <Route exact path='/Professional-Portfolio/projects'>
-            {Projects}
-          </Route>
+          <Route exact path='/Professional-Portfolio/projects' render={(repos) => (
+            <Projects {...repos} isAuthed={true} />
+          )} />
           <Route exact path='/Professional-Portfolio/contact'>
             {Contact}
           </Route>

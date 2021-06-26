@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
 import { Container, Row, Col } from '../components/Grid';
 import MainProject from '../components/MainProject';
+import SmallProject from '../components/SmallProject';
 import API from '../utils/API';
 
 const Projects = () => {
-    const [repos, setRepos] = useState([]);
+    const [repos, setRepos] = useState({});
 
     useEffect(() => {
         API.getInfo()
@@ -17,6 +18,10 @@ const Projects = () => {
             }))
             .catch((err) => console.log(err));
     }, []);
+    console.log(repos);
+    console.log(repos.starredRepos);
+    const starredRepos = repos.starredRepos;
+    console.log(starredRepos);
 
     return (
         <Container fluid>
@@ -34,7 +39,16 @@ const Projects = () => {
             </Row>
             <Row>
                 <Col size='sm-12'>
-                        
+                    {starredRepos.map((repo) => {
+                        return (
+                            <SmallProject 
+                                // key={repo.key} 
+                                // name={repo.name}
+                                // link={repo.link}
+                            />  
+                        )
+                    })}
+                    
                 </Col>
             </Row>
         </Container>
