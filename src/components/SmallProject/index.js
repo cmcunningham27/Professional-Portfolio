@@ -4,6 +4,7 @@ import Directory from '../../assets/images/Employee-Directory.png';
 import Tracker from '../../assets/images/Employee-Tracker_photo.png';
 import Blog from '../../assets/images/MVC-Tech-Blog_photo.png';
 import Song from '../../assets/images/Whats-the-Song_photo.png';
+import './style.css';
 let photo;
 let git;
 let info;
@@ -41,18 +42,20 @@ const SmallProject = ({ name, link }) => {
     };
 
     return (
-        <div className='smallProject'>
-            <h5 className="title">
-                {name}
-            </h5>
+        <div className='smallProject d-flex flex-column'>
             <a href={git} target='_blank' rel='noreferrer'>
                 <img className="project-img" src={photo} alt={info}/>
             </a>
-            <button className="github-btn">
-                <a href={link} target='_blank' rel='noreferrer'>
-                    GitHub repository
-                </a>
-            </button> 
+            <div className='content mt-auto'>
+                <h5 className="title">
+                    {name}
+                </h5>
+                <button className="github-btn btn">
+                    <a href={link} target='_blank' rel='noreferrer'>
+                        GitHub repository
+                    </a>
+                </button>
+            </div> 
         </div>
     )
 };

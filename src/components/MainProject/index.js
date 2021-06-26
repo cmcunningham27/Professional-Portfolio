@@ -4,7 +4,7 @@ import Moimeries from '../../assets/images/MOI-ME-RIES_photo.png'
 
 const MainProject = () => {
     return (
-        <div className='MainProject d-flex flex-column justify-content-center align-items-center'>
+        <div className='MainProject d-flex flex-column'>
             <a href='https://blooming-ocean-65385.herokuapp.com/' target='_blank' rel='noreferrer'>
                 <img className='project1-img' src={Moimeries} alt='Login page for MOI-ME-RIES app.' />
             </a>

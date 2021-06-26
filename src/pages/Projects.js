@@ -26,28 +26,31 @@ const Projects = () => {
         <Container fluid>
             <Row>
                 <Col size='sm-12'>
-                    <h1 className='m-5'>
+                    <h1 className='m-4'>
                         My Projects
                     </h1>
                 </Col>
             </Row>
             <Row>
                 <Col size='sm-12'>
-                    <MainProject />
+                    <div className='d-flex flex-row justify-content-center'>
+                        <MainProject />   
+                    </div>
                 </Col>
             </Row>
             <Row>
                 <Col size='sm-12'>
-                    {repos.length ? (repos.map((repo) => {
-                        return (
-                            <SmallProject 
-                                key={repo.key} 
-                                name={repo.name}
-                                link={repo.link}
-                            />  
-                        )
-                    })) : <p>Loading...</p>}
-                    
+                    <div className='d-flex flex-row flex-wrap justify-content-center'>
+                        {repos.length ? (repos.map((repo) => {
+                            return (
+                                <SmallProject 
+                                    key={repo.key} 
+                                    name={repo.name}
+                                    link={repo.link}
+                                />  
+                            )
+                        })) : <p>Loading...</p>}
+                    </div>
                 </Col>
             </Row>
         </Container>
