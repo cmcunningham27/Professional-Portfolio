@@ -15,20 +15,22 @@ function App() {
     <BrowserRouter>
       <div className='App'>
         <Header />
-        <Switch>
-          <Route exact path='/Professional-Portfolio'>
-            {Home}
-          </Route>
-          <Route exact path='/Professional-Portfolio/about'>
-            {About}
-          </Route>
-          <Route exact path='/Professional-Portfolio/projects' render={(repos) => (
-            <Projects {...repos} isAuthed={true} />
-          )} />
-          <Route exact path='/Professional-Portfolio/contact'>
-            {Contact}
-          </Route>
-        </Switch>
+        <div className='App-main'>
+          <Switch>
+            <Route exact path='/Professional-Portfolio'>
+              {Home}
+            </Route>
+            <Route exact path='/Professional-Portfolio/about'>
+              {About}
+            </Route>
+            <Route exact path='/Professional-Portfolio/projects' render={(repos) => (
+              <Projects {...repos} isAuthed={true} />
+            )} />
+            <Route exact path='/Professional-Portfolio/contact'>
+              {Contact}
+            </Route>
+          </Switch>
+        </div>
         {/* <Footer /> */}
       </div>
     </BrowserRouter>

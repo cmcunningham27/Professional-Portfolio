@@ -1,18 +1,21 @@
 import React from 'react';
+import './style.css';
 import Moimeries from '../../assets/images/MOI-ME-RIES_photo.png'
 
 const MainProject = () => {
     return (
-        <div className='MainProject'>
-            <h3 class='title'>MOI-ME-RIES App</h3>
+        <div className='MainProject d-flex flex-column justify-content-center align-items-center'>
             <a href='https://blooming-ocean-65385.herokuapp.com/' target='_blank' rel='noreferrer'>
-                <img class='project1-img' src={Moimeries} alt='Login page for MOI-ME-RIES app.' />
+                <img className='project1-img' src={Moimeries} alt='Login page for MOI-ME-RIES app.' />
             </a>
-            <button class='github-btn'>
-                <a href='https://github.com/cmcunningham27/moi-me-ries' target='_blank' rel='noreferrer'>
-                    GitHub repository
-                </a>
-            </button>
+            <div className='content'>
+                <h3 className='title'>MOI-ME-RIES App</h3>
+                <button className='github-btn btn'>
+                    <a href='https://github.com/cmcunningham27/moi-me-ries' target='_blank' rel='noreferrer'>
+                        GitHub repository
+                    </a>
+                </button>
+            </div>
         </div>
     )
 };
