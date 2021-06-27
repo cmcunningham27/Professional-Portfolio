@@ -6,7 +6,7 @@ import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Background from './assets/images/background.jpg';
-// import Footer from './components/Footer';
+import Footer from './components/Footer';
 
 import './App.css';
 
@@ -32,7 +32,7 @@ function App() {
             </Route>
           </Switch>
         </div>
-        {/* <Footer /> */}
+        <Footer />
       </div>
     </BrowserRouter>
   );
