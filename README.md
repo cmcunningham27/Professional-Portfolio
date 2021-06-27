@@ -3,8 +3,11 @@
 
 ## Descriptions
 My React Portfolio
-![](./assets/images/)
-
+![Home page](./assets/images/Home.png)
+![About page](./assets/images/About.png)
+![Projects page](./assets/images/Projects.png)
+![Resume page](./assets/images/Resume.png)
+![Contact page](./assets/images/Contact.png)
 
 ## Repository
 [Application Repository URL](https://github.com/cmcunningham27/Professional-Portfolio)
