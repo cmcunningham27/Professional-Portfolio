@@ -10,6 +10,21 @@
     margin-right: 10px;   
 }
 
-.icons p {
-    height: 57px;
+.navbar-item {
+    position: relative;
+}
+
+.toolTip {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 35%;
+    background-color: darkorchid;
+    z-index: 1;
+    padding: 3px;
+    border-radius: 10px;
+}
+
+.navbar-item:hover .toolTip{
+    display: block;
 }
