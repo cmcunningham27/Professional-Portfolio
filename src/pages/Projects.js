@@ -5,8 +5,10 @@ import SmallProject from '../components/SmallProject';
 import API from '../utils/API';
 
 const Projects = () => {
+    //sets default state to an empty array
     const [repos, setRepos] = useState([]);
 
+    //upon page mounting, collects data of my starred repos
     useEffect(() => {
         API.getInfo()
             .then((res) => setRepos( 
@@ -18,10 +20,7 @@ const Projects = () => {
             ))
             .catch((err) => console.log(err));
     }, []);
-    console.log(repos);
-    // console.log(repos.starredRepos);
     
-
     return (
         <Container fluid>
             <Row>
@@ -41,6 +40,7 @@ const Projects = () => {
             <Row>
                 <Col size='sm-12'>
                     <div className='d-flex flex-row flex-wrap justify-content-center'>
+                        {/* goes through starred repos array and creates a card for each */}
                         {repos.length ? (repos.map((repo) => {
                             return (
                                 <SmallProject 
