@@ -1,7 +1,9 @@
+/* style project main image */
 .project-img {
     width: 100%;
 }
 
+/* styles the card for each small project */
 .smallProject {
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
@@ -11,6 +13,7 @@
     border-radius: 15px;
 }
 
+/* styles the text area of each card */
 .content {
     padding: 10px;
 }
