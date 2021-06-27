@@ -48,7 +48,7 @@ This is important as I begin to apply for a permanent career in Web Development.
 This project is licensed under the MIT license.
 
 ## Complications
-* 
+* The main complication I ran into was realizing that I cannot get all the information I need for each small project from the API. So, I needed to create a Switch to make sure the correct link was applied for the deployed App. One of the projects does not have a deployed version, as it is only Back-End in the terminal.
 
 ## Features
 
