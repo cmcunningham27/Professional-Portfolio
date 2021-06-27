@@ -17,3 +17,7 @@
 .content {
     padding: 10px;
 }
+
+button:hover a {
+    color: darkorchid;
+}
