@@ -1,3 +1,4 @@
+//imports all dependencies and files needed
 import React from 'react';
 import Online from '../../assets/images/Online-Offline-Budget-Tracker.png'
 import Directory from '../../assets/images/Employee-Directory.png';
@@ -10,7 +11,7 @@ let git;
 let info;
 
 const SmallProject = ({ name, link }) => {
-
+    // sets attributes based on which project was collected at the time
     switch(name) {
         case 'Online-Offline-Budget-Trackers':
             photo = Online;

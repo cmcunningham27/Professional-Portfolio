@@ -3,9 +3,7 @@ import { Container, Row, Col } from '../components/Grid';
 
 const About = () => {
     return (
-        
             <Container fluid>
-                {/* <div className='aboutCard'> */}
                 <Row>
                     <Col size='sm-12'>
                         <h1 className='aboutTitle text-light'>
@@ -21,10 +19,7 @@ const About = () => {
                         </p>
                     </Col>
                 </Row>
-                {/* </div> */}
             </Container> 
-        
-        
     )
 };
 
