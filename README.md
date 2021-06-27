@@ -49,6 +49,7 @@ This project is licensed under the MIT license.
 
 ## Complications
 * The main complication I ran into was realizing that I cannot get all the information I need for each small project from the API. So, I needed to create a Switch to make sure the correct link was applied for the deployed App. One of the projects does not have a deployed version, as it is only Back-End in the terminal.
+* I ran into a problem when trying to use Routes because Link was not working in the Nav component. I did some research and found someone using NavLink. I applied it to my app instead of Link and it worked correctly.
 
 ## Features
 * In the future I would like to have a separate page for each project that will include detailed information about the process. On the page the user will find the links for the deployed App and GitHub repository. Thus, the Projects Page would only have the Project name and image.
