@@ -1,3 +1,4 @@
+/* styles the nav icons */
 .home,
 .aboutme,
 .mywork,
@@ -12,19 +13,3 @@
 .icons p {
     height: 57px;
 }
-
-/* .icons .hidden {
-    display: none;    
-} */
-
-/* .icons:hover img {
-    display: none;
-}
-
-.icons:hover .hidden {
-    display: block;
-    margin-left: 0px;
-    margin-top: 10px;
-    color: var(--black);
-    font-family: Impact, Haettenschweiler, 'Franklin Gothic Bold', Charcoal, 'Helvetica Inserat', 'Bitstream Vera Sans Bold', 'Arial Black', sans-serif;
-} */
