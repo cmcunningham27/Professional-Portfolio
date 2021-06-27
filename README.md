@@ -51,6 +51,7 @@ This project is licensed under the MIT license.
 * The main complication I ran into was realizing that I cannot get all the information I need for each small project from the API. So, I needed to create a Switch to make sure the correct link was applied for the deployed App. One of the projects does not have a deployed version, as it is only Back-End in the terminal.
 * I ran into a problem when trying to use Routes because Link was not working in the Nav component. I did some research and found someone using NavLink. I applied it to my app instead of Link and it worked correctly.
 * There were difficulties in figuring out where to use bootstraps flex styles within the different components. But, I am happy with how it turned out. I feel there must be a more simple way to approach it, however this is what I accomplished on my own.
+* I ran into complications when it came to the set up of the API call in Project.js because it was my first time doing it when using useState. The main layout was okay, however I was using more keys then I needed to when mapping through the data.
 
 ## Features
 * In the future I would like to have a separate page for each project that will include detailed information about the process. On the page the user will find the links for the deployed App and GitHub repository. Thus, the Projects Page would only have the Project name and image.
