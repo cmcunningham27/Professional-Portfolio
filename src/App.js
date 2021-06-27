@@ -1,3 +1,4 @@
+//importing dependencies
 import React from 'react';
 import Header from './components/Header/index';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
@@ -7,11 +8,10 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Background from './assets/images/background.jpg';
 import Footer from './components/Footer';
-
 import './App.css';
 
-function App() {
 
+function App() {
   return (
     <BrowserRouter>
       <div className='App'>
