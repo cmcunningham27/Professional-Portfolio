@@ -32,6 +32,8 @@
 * CSS
 * Bootstrap
 * HTML
+* GitHub REST API
+* AJAX/axios
 
 ## License
 This project is licensed under the MIT license.
