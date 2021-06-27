@@ -14,6 +14,7 @@
     position: relative;
 }
 
+/* styles the span element and hides it */
 .toolTip {
     display: none;
     position: absolute;
@@ -25,6 +26,7 @@
     border-radius: 10px;
 }
 
+/* makes the span element visible upon hovering the icon */
 .navbar-item:hover .toolTip{
     display: block;
 }
