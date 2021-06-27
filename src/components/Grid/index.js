@@ -1,5 +1,6 @@
 import React from 'react';
 
+// creates functional components to create the bootstrap grid
 export function Container({ fluid, children }) {
     return (
         <div className={`container${fluid ? '-fluid' : ''}`}>{children}</div>
