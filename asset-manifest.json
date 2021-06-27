@@ -1,24 +1,31 @@
 {
   "files": {
-    "main.css": "/professional-portfolio/static/css/main.9d5b29c0.chunk.css",
-    "main.js": "/professional-portfolio/static/js/main.bf0db638.chunk.js",
-    "main.js.map": "/professional-portfolio/static/js/main.bf0db638.chunk.js.map",
-    "runtime-main.js": "/professional-portfolio/static/js/runtime-main.82c8a073.js",
-    "runtime-main.js.map": "/professional-portfolio/static/js/runtime-main.82c8a073.js.map",
-    "static/css/2.d45d6843.chunk.css": "/professional-portfolio/static/css/2.d45d6843.chunk.css",
-    "static/js/2.259d443c.chunk.js": "/professional-portfolio/static/js/2.259d443c.chunk.js",
-    "static/js/2.259d443c.chunk.js.map": "/professional-portfolio/static/js/2.259d443c.chunk.js.map",
-    "index.html": "/professional-portfolio/index.html",
-    "static/css/2.d45d6843.chunk.css.map": "/professional-portfolio/static/css/2.d45d6843.chunk.css.map",
-    "static/css/main.9d5b29c0.chunk.css.map": "/professional-portfolio/static/css/main.9d5b29c0.chunk.css.map",
-    "static/js/2.259d443c.chunk.js.LICENSE.txt": "/professional-portfolio/static/js/2.259d443c.chunk.js.LICENSE.txt",
-    "static/media/profile-image.3e6d39b2.jpg": "/professional-portfolio/static/media/profile-image.3e6d39b2.jpg"
+    "main.css": "/Professional-Portfolio/static/css/main.1648732b.chunk.css",
+    "main.js": "/Professional-Portfolio/static/js/main.3e0a939c.chunk.js",
+    "main.js.map": "/Professional-Portfolio/static/js/main.3e0a939c.chunk.js.map",
+    "runtime-main.js": "/Professional-Portfolio/static/js/runtime-main.f5628672.js",
+    "runtime-main.js.map": "/Professional-Portfolio/static/js/runtime-main.f5628672.js.map",
+    "static/css/2.d45d6843.chunk.css": "/Professional-Portfolio/static/css/2.d45d6843.chunk.css",
+    "static/js/2.e4fa5185.chunk.js": "/Professional-Portfolio/static/js/2.e4fa5185.chunk.js",
+    "static/js/2.e4fa5185.chunk.js.map": "/Professional-Portfolio/static/js/2.e4fa5185.chunk.js.map",
+    "index.html": "/Professional-Portfolio/index.html",
+    "static/css/2.d45d6843.chunk.css.map": "/Professional-Portfolio/static/css/2.d45d6843.chunk.css.map",
+    "static/css/main.1648732b.chunk.css.map": "/Professional-Portfolio/static/css/main.1648732b.chunk.css.map",
+    "static/js/2.e4fa5185.chunk.js.LICENSE.txt": "/Professional-Portfolio/static/js/2.e4fa5185.chunk.js.LICENSE.txt",
+    "static/media/CMC_Resume.ecf05229.pdf": "/Professional-Portfolio/static/media/CMC_Resume.ecf05229.pdf",
+    "static/media/Employee-Directory.e9cda9e8.png": "/Professional-Portfolio/static/media/Employee-Directory.e9cda9e8.png",
+    "static/media/Employee-Tracker_photo.800b46d9.png": "/Professional-Portfolio/static/media/Employee-Tracker_photo.800b46d9.png",
+    "static/media/MOI-ME-RIES_photo.7916a8ce.png": "/Professional-Portfolio/static/media/MOI-ME-RIES_photo.7916a8ce.png",
+    "static/media/MVC-Tech-Blog_photo.f73e8615.png": "/Professional-Portfolio/static/media/MVC-Tech-Blog_photo.f73e8615.png",
+    "static/media/Online-Offline-Budget-Tracker.dc052073.png": "/Professional-Portfolio/static/media/Online-Offline-Budget-Tracker.dc052073.png",
+    "static/media/Whats-the-Song_photo.4c17f64d.png": "/Professional-Portfolio/static/media/Whats-the-Song_photo.4c17f64d.png",
+    "static/media/profile-image.3e6d39b2.jpg": "/Professional-Portfolio/static/media/profile-image.3e6d39b2.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.82c8a073.js",
+    "static/js/runtime-main.f5628672.js",
     "static/css/2.d45d6843.chunk.css",
-    "static/js/2.259d443c.chunk.js",
-    "static/css/main.9d5b29c0.chunk.css",
-    "static/js/main.bf0db638.chunk.js"
+    "static/js/2.e4fa5185.chunk.js",
+    "static/css/main.1648732b.chunk.css",
+    "static/js/main.3e0a939c.chunk.js"
   ]
 }
