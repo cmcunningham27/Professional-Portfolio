@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import About from './pages/About';
 import Projects from './pages/Projects';
 import Contact from './pages/Contact';
+import Background from './assets/images/background.jpg';
 // import Footer from './components/Footer';
 
 import './App.css';
@@ -15,7 +16,7 @@ function App() {
     <BrowserRouter>
       <div className='App'>
         <Header />
-        <div className='App-main'>
+        <div className='App-main min-vh-100' style={{ backgroundImage: `url(${Background})`}}>
           <Switch>
             <Route exact path='/Professional-Portfolio'>
               {Home}

@@ -7,7 +7,7 @@ const Contact = () => {
         <Container fluid>
             <Row>
                 <Col size='sm-12'>
-                    <h1>
+                    <h1 className='contactTitle text-light'>
                         Contacts
                     </h1>
                 </Col>

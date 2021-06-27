@@ -51,3 +51,5 @@ E-mailing me is the best option
 
 ## Credit
 Favicon made by Freepik from www.flaticon.com
+
+Background Photo by Luke Chesser on Unsplash

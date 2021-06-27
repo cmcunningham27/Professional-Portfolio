@@ -8,9 +8,12 @@ const Home = () => {
             <Row>
                 <Col size='sm-12'>
                     <img className='profileImage rounded-circle' src={image} alt='Cassandra Cunningham'/>
-                    <h1>
+                    <h1 className='jobTitle text-light'>
                         Full-Stack Web Developer
                     </h1>
+                    <h5 className='quote text-light'>
+                        "Providing meaningful connections around the world"
+                    </h5>
                 </Col>
             </Row>
         </Container>

@@ -26,7 +26,7 @@ const Projects = () => {
         <Container fluid>
             <Row>
                 <Col size='sm-12'>
-                    <h1 className='m-4'>
+                    <h1 className='projectTitle m-4 text-light'>
                         My Projects
                     </h1>
                 </Col>

@@ -8,6 +8,7 @@
     transition: 0.3s;
     width:50%;
     margin-bottom: 20px;
+    border-radius: 15px;
 }
 
 .content {

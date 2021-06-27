@@ -3,7 +3,7 @@
 }
 
 .App-main {
-  background-color: lightgray;
+  background-size: cover;
 }
 
 /* .App-header {
@@ -39,10 +39,44 @@
 }
 
 .profileImage {
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   animation-name: largeSmall;
-  animation-duration: 1s;
-  /* margin-right: 0px; */
-  border: 10px double ; 
+  animation-duration: .8s;
+  border: 10px double white;
+  margin: 70px 0;
+}
+
+.jobTitle,
+.quote {
+  animation-name: largeSmall;
+  animation-duration: .8s;
+}
+
+.About,
+.ContactCard {
+  margin: 0 80px;
+  padding: 35px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 15px;
+}
+
+.aboutTitle,
+.contactTitle {
+  margin: 70px;
+}
+
+/* Adds symbold before and after each heading in the main section */
+.aboutTitle::before,
+.projectTitle::before,
+.contactTitle::before {
+  content: ">>";
+  margin-right: 10px;
+}
+
+.aboutTitle::after,
+.projectTitle::after,
+.contactTitle::after {
+  content: "<<";
+  margin-left: 10px;
 }
