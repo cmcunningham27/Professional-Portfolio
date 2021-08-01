@@ -5,6 +5,7 @@ import Directory from '../../assets/images/Employee-Directory.png';
 import Tracker from '../../assets/images/Employee-Tracker_photo.png';
 import Blog from '../../assets/images/MVC-Tech-Blog_photo.png';
 import Song from '../../assets/images/Whats-the-Song_photo.png';
+import Books from '../../assets/images/Google-Books-Search.png';
 import './style.css';
 let photo;
 let git;
@@ -38,6 +39,10 @@ const SmallProject = ({ name, link }) => {
             git = 'https://cmcunningham27.github.io/Whats-the-Song-app';
             info = 'Spotify Login to begin searching for songs';
             break;
+        case 'Google-Books-Search':
+            photo = Books;
+            git = 'https://github.com/cmcunningham27/Google-Books-Search';
+            info = ''
         default:
             break;
     };
