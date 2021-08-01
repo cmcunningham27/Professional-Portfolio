@@ -5,7 +5,7 @@ import about from '../../assets/images/about-me.png';
 import project from '../../assets/images/my-work.png';
 import resume from '../../assets/images/resume.png';
 import contact from '../../assets/images/contact.png';
-import Resume from '../../assets/resume/Professional-Resume.docx';
+import Resume from '../../assets/resume/Professional-Resume.pdf';
 import './style.css';
 
 const Nav = () => {
