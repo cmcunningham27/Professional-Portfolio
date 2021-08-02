@@ -6,7 +6,7 @@ const MainProject = () => {
     return (
         <div className='MainProject d-flex flex-column'>
             <a href='https://protected-basin-89410.herokuapp.com/' target='_blank' rel='noreferrer'>
-                <img className='project1-img' src={Memoirs} alt='Login page for MOI-ME-RIES app.' />
+                <img className='project1-img' src={Memoirs} alt='Login page for ME-MOIRS app.' />
             </a>
             <div className='content'>
                 <h3 className='title'>ME-MOIRS App</h3>

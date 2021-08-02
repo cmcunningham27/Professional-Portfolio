@@ -42,7 +42,7 @@ const SmallProject = ({ name, link }) => {
             break;
         case 'Google-Books-Search':
             photo = Books;
-            git = 'https://github.com/cmcunningham27/Google-Books-Search';
+            git = 'https://murmuring-beach-73094.herokuapp.com/';
             info = 'List of saved books';
             break;
         case 'moi-me-ries':
