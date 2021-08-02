@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Professional-Portfolio/static/css/main.f4ec3020.chunk.css",
-    "main.js": "/Professional-Portfolio/static/js/main.87919e4f.chunk.js",
-    "main.js.map": "/Professional-Portfolio/static/js/main.87919e4f.chunk.js.map",
+    "main.js": "/Professional-Portfolio/static/js/main.d8ef3c9a.chunk.js",
+    "main.js.map": "/Professional-Portfolio/static/js/main.d8ef3c9a.chunk.js.map",
     "runtime-main.js": "/Professional-Portfolio/static/js/runtime-main.f5628672.js",
     "runtime-main.js.map": "/Professional-Portfolio/static/js/runtime-main.f5628672.js.map",
     "static/css/2.d45d6843.chunk.css": "/Professional-Portfolio/static/css/2.d45d6843.chunk.css",
@@ -15,6 +15,7 @@
     "static/media/Employee-Directory.e9cda9e8.png": "/Professional-Portfolio/static/media/Employee-Directory.e9cda9e8.png",
     "static/media/Employee-Tracker_photo.800b46d9.png": "/Professional-Portfolio/static/media/Employee-Tracker_photo.800b46d9.png",
     "static/media/Google-Books-Search.e6d86bca.png": "/Professional-Portfolio/static/media/Google-Books-Search.e6d86bca.png",
+    "static/media/ME-MOIRS_photo.67ec1f9a.png": "/Professional-Portfolio/static/media/ME-MOIRS_photo.67ec1f9a.png",
     "static/media/MOI-ME-RIES_photo.7916a8ce.png": "/Professional-Portfolio/static/media/MOI-ME-RIES_photo.7916a8ce.png",
     "static/media/MVC-Tech-Blog_photo.f73e8615.png": "/Professional-Portfolio/static/media/MVC-Tech-Blog_photo.f73e8615.png",
     "static/media/Online-Offline-Budget-Tracker.dc052073.png": "/Professional-Portfolio/static/media/Online-Offline-Budget-Tracker.dc052073.png",
@@ -28,6 +29,6 @@
     "static/css/2.d45d6843.chunk.css",
     "static/js/2.91299fab.chunk.js",
     "static/css/main.f4ec3020.chunk.css",
-    "static/js/main.87919e4f.chunk.js"
+    "static/js/main.d8ef3c9a.chunk.js"
   ]
 }
