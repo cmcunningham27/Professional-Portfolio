@@ -15,7 +15,7 @@ const About = () => {
                 <Row>
                     <Col size='sm-12'>
                         <p className='About text-light' style={{ backgroundColor: 'rgba(0, 0, 0, 0.5'}}>
-                            As a recent Full Stack Web Developing graduate from University of Washington, I am excited to work collaboratively with a like-minded team. My passion is in providing an end product that is pleasing to the eye, adaptable, clean, responsive, and easily navigated by the user. I am highly skilled in troubleshooting when complications arise, organizing and creating legible code, HTML/CSS and Javascript languages, and making sure products are responsive for all device screen sizes. Working with a group of creators has proven beneficial when it comes to the time needed to finish a product, adaptability and flexibility in coding as each individual has their own techniques, and communication as it pertains to solving an error together from another team member's or my own code.
+                            Recent Full-Stack Web Development Graduate seeking a future career as a Full-Stack or Back-End Web Developer that leverages my skills in Mathematics. I have developed skills in Node.js, Express.js, HTML, CSS, Javascript, jQuery, Mongoose, Axios, Bootstrap, MySQL, Handlebars.js, Rest API’s, Git, Sequelize.js, React.js, and responsive web design. Known as a driven problem-solver passionate about developing apps that create meaningful connections. Excited to continue learning and bring my attention to detail, with a quality-driven team to grow and become a valuable asset. 
                         </p>
                     </Col>
                 </Row>
