@@ -17,7 +17,7 @@ const SmallProject = ({ name, link }) => {
     switch(name) {
         case 'Online-Offline-Budget-Trackers':
             photo = Online;
-            git = 'https//safe-dawn-19198.herokuapp.com';
+            git = 'https://safe-dawn-19198.herokuapp.com';
             info = 'Indexed DB and list of transactions';
             break;
         case 'Employee-Directory_React':
@@ -27,7 +27,7 @@ const SmallProject = ({ name, link }) => {
             break;
         case 'MySQL-Employee_Tracker':
             photo = Tracker;
-            git = '';
+            git = link;
             info = '3 tables: all employees, employees by department, and employees by manager';
             break;
         case 'MVC-Tech_Blog':
