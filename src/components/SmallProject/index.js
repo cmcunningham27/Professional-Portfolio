@@ -6,6 +6,7 @@ import Tracker from '../../assets/images/Employee-Tracker_photo.png';
 import Blog from '../../assets/images/MVC-Tech-Blog_photo.png';
 import Song from '../../assets/images/Whats-the-Song_photo.png';
 import Books from '../../assets/images/Google-Books-Search.png';
+import Moimeries from '../../assets/images/MOI-ME-RIES_photo.png';
 import './style.css';
 let photo;
 let git;
@@ -42,7 +43,13 @@ const SmallProject = ({ name, link }) => {
         case 'Google-Books-Search':
             photo = Books;
             git = 'https://github.com/cmcunningham27/Google-Books-Search';
-            info = ''
+            info = 'List of saved books';
+            break;
+        case 'moi-me-ries':
+            photo = Moimeries;
+            git = 'https://blooming-ocean-65385.herokuapp.com/';
+            info = 'Login page';
+            break;
         default:
             break;
     };
