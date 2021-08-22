@@ -4,7 +4,7 @@ import Memoirs from '../../assets/images/ME-MOIRS_photo.png'
 
 const MainProject = () => {
     return (
-        <div className='MainProject d-flex flex-column'>
+        <div className='MainProject d-flex flex-column align-items-center '>
             <a href='https://protected-basin-89410.herokuapp.com/' target='_blank' rel='noreferrer'>
                 <img className='project1-img' src={Memoirs} alt='Login page for ME-MOIRS app.' />
             </a>
@@ -18,13 +18,13 @@ const MainProject = () => {
                 <p>
                     Gives users an intentional platform to make a more personalized profile with information of their choice. 
                 </p>
-                <ul class='list-group list-group-horizontal'>
-                    <li class='list-group-item'>React.js</li>
-                    <li class='list-group-item'>Express.js</li>
-                    <li class='list-group-item'>Node.js</li>
-                    <li class='list-group-item'>Bcryptjs</li>
-                    <li class='list-group-item'>Mongoose</li>
-                    <li class='list-group-item'>Axios</li>
+                <ul id='techList'>
+                    <li>React.js</li>
+                    <li class='listItem'>Express.js</li>
+                    <li class='listItem'>Node.js</li>
+                    <li class='listItem'>Bcryptjs</li>
+                    <li class='listItem'>Mongoose</li>
+                    <li class='listItem'>Axios</li>
                 </ul>
             </div>
         </div>
