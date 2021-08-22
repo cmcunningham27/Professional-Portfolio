@@ -5,7 +5,7 @@ const ContactCard = () => {
     return (
         <div className="ContactCard text-light" style={{ backgroundColor: 'rgba(0, 0, 0, 0.5'}}>
             <h5>
-                <a href='mailto:sttepstutoring@yahoo.com'>Send E-mail</a>
+                <a href='mailto:cm_cunningham27@yahoo.com'>Send E-mail</a>
             </h5>
             <h5>
                 By Phone: (253) 820-1032
