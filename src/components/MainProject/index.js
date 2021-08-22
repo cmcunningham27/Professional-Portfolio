@@ -11,10 +11,21 @@ const MainProject = () => {
             <div className='content'>
                 <h3 className='title'>ME-MOIRS App</h3>
                 <button className='github-btn btn'>
-                    <a href='https://github.com/harben31/project3' target='_blank' rel='noreferrer'>
+                    <a href='https://github.com/cmcunningham27/me-moirs' target='_blank' rel='noreferrer'>
                         GitHub repository
                     </a>
                 </button>
+                <p>
+                    Gives users an intentional platform to make a more personalized profile with information of their choice. 
+                </p>
+                <ul class='list-group list-group-horizontal'>
+                    <li class='list-group-item'>React.js</li>
+                    <li class='list-group-item'>Express.js</li>
+                    <li class='list-group-item'>Node.js</li>
+                    <li class='list-group-item'>Bcryptjs</li>
+                    <li class='list-group-item'>Mongoose</li>
+                    <li class='list-group-item'>Axios</li>
+                </ul>
             </div>
         </div>
     )
