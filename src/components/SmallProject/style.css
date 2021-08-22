@@ -13,6 +13,19 @@
     border-radius: 15px;
 }
 
+#techList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 10px 10px 16px;
+}
+
+.listItem {
+    margin-left: 25px;
+    margin-right: 15px;
+}
+
 /* styles the text area of each card */
 .content {
     padding: 10px;
