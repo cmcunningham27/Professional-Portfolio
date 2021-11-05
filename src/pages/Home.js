@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from '../components/Grid';
-import image from '../assets/images/profile-image.jpg';
+import image from '../assets/images/profile-image.jfif';
 
 const Home = () => {
     return (
