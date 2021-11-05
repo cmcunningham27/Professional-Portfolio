@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Professional-Portfolio/static/css/main.2a88571c.chunk.css",
-    "main.js": "/Professional-Portfolio/static/js/main.7376ff5d.chunk.js",
-    "main.js.map": "/Professional-Portfolio/static/js/main.7376ff5d.chunk.js.map",
+    "main.js": "/Professional-Portfolio/static/js/main.cbe9921f.chunk.js",
+    "main.js.map": "/Professional-Portfolio/static/js/main.cbe9921f.chunk.js.map",
     "runtime-main.js": "/Professional-Portfolio/static/js/runtime-main.f5628672.js",
     "runtime-main.js.map": "/Professional-Portfolio/static/js/runtime-main.f5628672.js.map",
     "static/css/2.d45d6843.chunk.css": "/Professional-Portfolio/static/css/2.d45d6843.chunk.css",
@@ -22,13 +22,13 @@
     "static/media/Professional-Resume.a1f51c2f.pdf": "/Professional-Portfolio/static/media/Professional-Resume.a1f51c2f.pdf",
     "static/media/Whats-the-Song_photo.4c17f64d.png": "/Professional-Portfolio/static/media/Whats-the-Song_photo.4c17f64d.png",
     "static/media/background.4ce322a3.jpg": "/Professional-Portfolio/static/media/background.4ce322a3.jpg",
-    "static/media/profile-image.3e6d39b2.jpg": "/Professional-Portfolio/static/media/profile-image.3e6d39b2.jpg"
+    "static/media/profile-image.817c18c7.jfif": "/Professional-Portfolio/static/media/profile-image.817c18c7.jfif"
   },
   "entrypoints": [
     "static/js/runtime-main.f5628672.js",
     "static/css/2.d45d6843.chunk.css",
     "static/js/2.91299fab.chunk.js",
     "static/css/main.2a88571c.chunk.css",
-    "static/js/main.7376ff5d.chunk.js"
+    "static/js/main.cbe9921f.chunk.js"
   ]
 }
